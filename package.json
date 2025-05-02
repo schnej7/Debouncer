@@ -1,0 +1,23 @@
+{
+  "name": "@schnej7/debouncer",
+  "version": "1.0.0",
+  "description": "Highly performant TypeScript debounce functionality",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "del-cli ./lib",
+    "build": "npm run clean && tsc -p ./tsconfig.json",
+    "prepack": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^6.0.0",
+    "typescript": "^5.8.3"
+  }
+}
