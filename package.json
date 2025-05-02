@@ -8,16 +8,18 @@
     "lib/**/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "del-cli ./lib",
     "build": "npm run clean && tsc -p ./tsconfig.json",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "test": "tsx --test ./tests/*"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.15.3",
     "del-cli": "^6.0.0",
+    "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   }
 }
