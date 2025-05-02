@@ -1,6 +1,6 @@
 {
   "name": "@schnej7/debouncer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Highly performant TypeScript debounce functionality",
   "types": "./lib/index.d.ts",
   "main": "./lib/index.js",
@@ -16,6 +16,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schnej7/Debouncer"
+  },
   "devDependencies": {
     "@types/node": "^22.15.3",
     "del-cli": "^6.0.0",
